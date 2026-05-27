@@ -96,12 +96,12 @@ body {
 }
 
 .profile-section h1 {
-    font-size: 1.45rem;
+    font-size: 1.6rem; /* Slightly larger to stand out */
     font-weight: 700;
-    color: var(--text-main);
     line-height: 1.3;
     margin-top: 5px;
-    background: var(--gradient-primary);
+    background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%); /* Crisp white-to-light-indigo gradient */
+    -webkit-background-clip: text; /* Clips the gradient to the text letters */
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
